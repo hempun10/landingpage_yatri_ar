@@ -598,8 +598,8 @@ nav {
 /* Features Section Styling */
 #features {
   height: 100%;
-  padding-bottom: 200px;
-  border-bottom: 1px solid #e0e0e0;
+  /* padding-bottom: 200px; */
+  /* border-bottom: 1px solid #e0e0e0; */
 }
 
 .features_3 {
@@ -827,10 +827,8 @@ nav {
   margin: 25px auto;
 }
 
-.app-logo {
-  -webkit-filter: drop-shadow(0 10px 30px rgba(223, 27, 60, 0.3));
-  filter: drop-shadow(0 10px 30px rgba(223, 27, 60, 0.3));
-}
+
+
 /* End: Download The App Section Styling */
 
 /* Footer Section Styling */
@@ -859,6 +857,15 @@ nav {
 
 .links ul li a {
   color: #363636;
+}
+.download-btn-apk{
+  transition: .3s ease-in-out;
+  background: linear-gradient(to bottom, #d90647 10%, #eb402c 100%);
+  color: #ffffff;
+  border: none;
+}
+.download-btn-apk:hover{
+  color: #d90647;
 }
 /* End: Footer Section Styling */
 
