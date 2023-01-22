@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@600;700&display=swap');
 /* Nice Select CSS */
 .nice-select {
   -webkit-tap-highlight-color: transparent;
@@ -227,6 +228,10 @@ section {
 ::placeholder {
   font-size: 18px;
   color: #808080;
+}
+:root{
+  primary-font:'Monoton', cursive;;
+  secondary-font:'Poppins', sans-serif;
 }
 
 /* Preloader */
@@ -505,7 +510,7 @@ nav {
 }
 
 .hero-img {
-  max-width: 28% !important;
+  max-width: 40% !important;
   float: right;
   z-index: 1;
   position: absolute;
