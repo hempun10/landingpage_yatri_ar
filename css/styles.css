@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@600;700&family=Unbounded:wght@400;500;600&display=swap');
 /* Nice Select CSS */
 .nice-select {
   -webkit-tap-highlight-color: transparent;
@@ -230,8 +230,9 @@ section {
   color: #808080;
 }
 :root{
-  primary-font:'Monoton', cursive;;
-  secondary-font:'Poppins', sans-serif;
+  --primary-font:'Monoton', cursive;;
+  --secondary-font:'Poppins', sans-serif;
+  --tittle-font:'Unbounded', cursive;
 }
 
 /* Preloader */
@@ -380,7 +381,8 @@ nav {
 
 .logo {
   font-size: 3.125rem;
-  font-weight: 900;
+  font-weight: 400;
+  font-family: var(--primary-font);
 }
 
 #navbar ul li {
@@ -493,6 +495,10 @@ nav {
   margin-top: 3.125rem;
   float: left;
   margin-left: 1.875rem;
+}
+.hero-tittle{
+  font-family: var(--tittle-font);
+  font-weight:600;
 }
 
 .hero-description p {
